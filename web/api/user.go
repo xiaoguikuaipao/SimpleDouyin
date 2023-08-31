@@ -18,6 +18,7 @@ func RegisterHandler(c context.Context, ctx *app.RequestContext) {
 			"message": "用户名或密码不符合要求",
 		})
 	}
+
 }
 
 func LoginHandler(ctx context.Context, c *app.RequestContext) {
